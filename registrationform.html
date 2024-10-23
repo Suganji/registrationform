@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        /* body{
+            background-image: linear-gradient(to right, aqua,rgb(144, 199, 199),rgb(159, 159, 202));
+        } */
+        #registrationform{
+            width:60%;
+            height: 300px;
+            background-image: linear-gradient(to right, aqua,rgb(144, 199, 199),rgb(159, 159, 202));
+            border:black 2px solid;
+            border-radius: 10%;
+            text-align: center;
+            margin-left: 20%;
+           padding: 30px;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1 class="font-bold text-3xl text-center mt-5 p-5">Registration Form</h1>
+    <form action="" id="registrationform">
+        <label class="font-bold" >Name : </label>
+        <input type="text" id="name" name="name" required class="border border-2 border-black hover:bg-fuchsia-600"><br><br>
+        <label class="font-bold">Email : </label>
+        <input type="email" id="email" name="email" required class="border border-2 border-black hover:bg-fuchsia-600"><br><br>
+        <label class="font-bold" for="">Password : </label>
+        <input type="password" id="password" name="password" minlength="6" required class="border border-2 border-black hover:bg-fuchsia-600"> <br><br>
+        <button class="p-2 text-white bg-black rounded">Submit</button>
+    </form>
+
+   
+</body>
+</html>
